@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&family=Roboto:ital,wght@0,400;1,400;1,700&display=swap");
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  max-width: 768px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Mate SC", serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "Mate SC", serif;
+  margin: 1.5rem 0 0.75rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.example {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.example-label {
+  font-weight: bold;
+}
+
+.disclaimer {
+  margin-top: 25px;
+}
